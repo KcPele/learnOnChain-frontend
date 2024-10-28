@@ -203,7 +203,7 @@ export function LandingPageComponent() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
-              className="container px-4 md:px-6"
+              className="container px-4 md:px-6 mx-auto"
             >
               <motion.div
                 initial={{ y: 100 }}
@@ -254,7 +254,7 @@ export function LandingPageComponent() {
         {/* Features Section */}
         <AnimatedSection>
           <section className="w-full py-12 md:py-24 lg:py-32 bg-black/50 backdrop-blur-sm">
-            <div className="container px-4 md:px-6">
+            <div className="container px-4 md:px-6 mx-auto">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -336,7 +336,7 @@ export function LandingPageComponent() {
         {/* Course Categories Section */}
         <AnimatedSection>
           <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-gray-900 via-black to-gray-900">
-            <div className="container px-4 md:px-6">
+            <div className="container px-4 md:px-6 mx-auto">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

@@ -18,7 +18,7 @@ export function StatsSection() {
       ref={ref}
       className="py-16 bg-gradient-to-r from-blue-900 via-gray-900 to-purple-900"
     >
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (
             <motion.div

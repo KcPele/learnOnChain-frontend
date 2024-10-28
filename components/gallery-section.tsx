@@ -49,7 +49,7 @@ const images = [
 export function GallerySection() {
   return (
     <section className="py-16 bg-gradient-to-b from-black via-gray-900 to-black">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
