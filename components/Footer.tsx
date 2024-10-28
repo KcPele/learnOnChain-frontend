@@ -32,7 +32,7 @@ const Footer = () => {
                 <path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16" />
               </svg>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                BlockLearn
+                LearnOnChain
               </span>
             </motion.div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -55,7 +55,7 @@ const Footer = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                contact@blocklearn.edu
+                contact@learnonchain.edu
               </p>
               <p className="flex items-center">
                 <svg
@@ -77,7 +77,7 @@ const Footer = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                123 Blockchain Street, Crypto City, CC 12345
+                Street, Lagos Lakowe, gioni estate
               </p>
             </div>
           </div>
@@ -210,7 +210,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} BlockLearn. All rights reserved.
+            © {new Date().getFullYear()} LearnOnChain. All rights reserved.
             <div className="flex gap-4 mt-2">
               <Link href="#" className="hover:text-blue-400 transition-colors">
                 Privacy Policy
