@@ -91,7 +91,7 @@ export function TestimonialCarousel() {
                     transition={{ delay: 0.3 }}
                     className="text-xl italic text-gray-200"
                   >
-                    "{testimonials[current].content}"
+                    {testimonials[current].content}
                   </motion.p>
                   <motion.div
                     initial={{ opacity: 0 }}

@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Check, ChevronDown, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import Footer from "./Footer";
@@ -20,24 +20,24 @@ import { TestimonialCarousel } from "./testimonial-carousel";
 import { AnimatedSection } from "./ui/animated-section";
 
 // Animation variants
-const fadeIn = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 },
-};
+// const fadeIn = {
+//   initial: { opacity: 0, y: 20 },
+//   animate: { opacity: 1, y: 0 },
+//   transition: { duration: 0.5 },
+// };
 
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
+// const staggerContainer = {
+//   animate: {
+//     transition: {
+//       staggerChildren: 0.1,
+//     },
+//   },
+// };
 
-const cardHover = {
-  rest: { scale: 1, transition: { duration: 0.2 } },
-  hover: { scale: 1.05, transition: { duration: 0.2 } },
-};
+// const cardHover = {
+//   rest: { scale: 1, transition: { duration: 0.2 } },
+//   hover: { scale: 1.05, transition: { duration: 0.2 } },
+// };
 
 // Add this new constant for navigation items
 const navigationItems = [
@@ -600,8 +600,3 @@ export function LandingPageComponent() {
     </div>
   );
 }
-
-// Helper arrays for features, testimonials, etc.
-const features = [
-  // ... your features array
-];
